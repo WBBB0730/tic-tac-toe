@@ -1,10 +1,9 @@
-import styles from './HomePage.module.scss'
-import ReactIcon from '@/assets/react.svg?react'
+import { FC } from 'react'
 
-const HomePage = () => {
+const HomePage: FC = () => {
+
   return (
-    <div className={styles.page}>
-      <ReactIcon className={styles.icon} width={80} height={80} />
+    <div className="page">
     </div>
   )
 }

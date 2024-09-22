@@ -1,0 +1,47 @@
+@import "colors";
+@import "variables";
+
+@font-face {
+  font-family: MyFont;
+  src: url("@/assets/fonts/新叶念体.otf");
+}
+
+body {
+  margin: 0;
+  color: var(--text-80);
+  font-family: MyFont, sans-serif;
+  font-size: 32px;
+  user-select: none;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+button {
+  all: initial;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding: 16px;
+  overflow: hidden;
+}

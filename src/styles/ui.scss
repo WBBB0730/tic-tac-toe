@@ -1,0 +1,40 @@
+.large-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg:first-of-type {
+    position: absolute;
+    inset: 0;
+  }
+}
+
+.small-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  svg:first-of-type {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+  }
+}

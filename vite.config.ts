@@ -1,8 +1,9 @@
-import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import UnoCSS from 'unocss/vite'
-import svgr from 'vite-plugin-svgr'
 import * as path from 'node:path'
+import UnoCSS from 'unocss/vite'
+import { defineConfig } from 'vite'
+import checker from 'vite-plugin-checker'
+import svgr from 'vite-plugin-svgr'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,6 +11,9 @@ export default defineConfig({
     react(),
     UnoCSS(),
     svgr(),
+    checker({
+      typescript: true,
+    })
   ],
   resolve: {
     alias: {

@@ -21,10 +21,12 @@
     "react-dom": "^18.3.1",
     "react-konva": "^18.2.10",
     "react-router-dom": "^6.26.1",
-    "roughjs": "^4.6.6"
+    "roughjs": "^4.6.6",
+    "use-immer": "^0.10.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@types/lodash": "^4.17.9",
     "@types/node": "^22.5.4",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
@@ -38,6 +40,7 @@
     "typescript-eslint": "^8.0.1",
     "unocss": "^0.62.3",
     "vite": "^5.4.1",
+    "vite-plugin-checker": "^0.8.0",
     "vite-plugin-svgr": "^4.2.0"
   }
 }
